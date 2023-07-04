@@ -16,4 +16,32 @@
 * As a Frequent User, I want to use GoneSurfing as my primary source of surfing news.
 * As a Frequent User, I want to see updated pictures of GoneSurfing Meetups, so that I can see myself surfing.
 
+## Wireframes
 
+## Full screen size
+
+### Home page
+![Home](assets\images\Home.png)
+
+### Blog page
+![Blog](assets\images\Blog.png)
+
+### Gallery page
+![Gallery](assets\images\Gallery.png)
+
+### Contact page
+![Contact](assets\images\Contact.png)
+
+## Mobile screen size
+
+### Home page
+![Home](assets\images\HomeMobile.png)
+
+### Blog page
+![Blog](assets\images\BlogMobile.png)
+
+### Gallery page
+![Gallery](assets\images\GalleryMobile.png)
+
+### Contact page
+![Contact](assets\images\ContactMobile.png)
