@@ -21,27 +21,27 @@
 ## Full screen size
 
 ### Home page
-![Home](assets\images\Home.png)
+![Home](assets/images/Home.png)
 
 ### Blog page
-![Blog](assets\images\Blog.png)
+![Blog](assets/images/Blog.png)
 
 ### Gallery page
-![Gallery](assets\images\Gallery.png)
+![Gallery](assets/images/Gallery.png)
 
 ### Contact page
-![Contact](assets\images\Contact.png)
+![Contact](assets/images/Contact.png)
 
 ## Mobile screen size
 
 ### Home page
-![Home](assets\images\HomeMobile.png)
+![Home](assets/images/HomeMobile.png)
 
 ### Blog page
-![Blog](assets\images\BlogMobile.png)
+![Blog](assets/images/BlogMobile.png)
 
 ### Gallery page
-![Gallery](assets\images\GalleryMobile.png)
+![Gallery](assets/images/GalleryMobile.png)
 
 ### Contact page
-![Contact](assets\images\ContactMobile.png)
+![Contact](assets/images/ContactMobile.png)
