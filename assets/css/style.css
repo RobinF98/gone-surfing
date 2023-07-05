@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+
+:root{
+    --light: rgb(108, 152, 170);
+    --dark: rgb(73, 101, 101);
+}
 body{
     /* border: solid red 5px; */
     padding: 0;
@@ -18,10 +23,12 @@ header {
     flex-direction: row;
     justify-content:space-between;
     align-content: center;
-    background: rgb(116, 197, 177);
+    /* background: rgb(116, 197, 177); */
+    background: var(--light);
 }
 
 header h1 {
+    font-family: "Rock Salt", cursive;
     align-self: center;
 }
 /* Navigation links */
@@ -31,7 +38,7 @@ header h1 {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 0;
     align-self: flex-end;
     /* border:rgb(22, 22, 22) solid 1px; */
@@ -56,6 +63,37 @@ header h1 {
     color: inherit;
 }
 
-.menu a:hover {
+.menu a:hover, .active {
     border-bottom: 2px solid darkcyan;
+}
+
+.active a:hover{
+    border-bottom: none;
+}
+/* Main Content */
+.hero_outer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    background: lightblue;
+}
+.hero_image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero_image.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.cover_text {
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    margin-left: 10%;
+    align-self: start;
+    padding:5px;
+    background: rgba(255, 116, 116, 0.4) ;
+
+    color: rgb(236, 236, 236);
+    font-size:1.2em;
 }
