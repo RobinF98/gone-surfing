@@ -82,16 +82,17 @@ h1 a{
     /* border-right: rgb(0, 0, 0) solid 1px; */
     /* padding-right: 50px; */
     /* margin: 10px 20px; */
-    padding: 36.5px 20px;
+    /* padding: 36.5px 20px; */
     /* background: pink; */
 
     width:100px;
     height: 90px;
 
     display: flex;
+
 }
 
-.menu li:hover{
+.menu li:hover {
     background: var(--dark);
 }
 /* 
@@ -103,12 +104,24 @@ h1 a{
     text-decoration: none;
     color: inherit;
 
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.menu a p {
     margin: auto;
 }
 
-.menu a:hover, .active {
-    border-bottom: 2px solid darkcyan;
+.active {
+    background: var(--dark);
 }
+
+.menu a:hover {
+    /* border-bottom: 5px solid var(--dark); */
+}
+
 
 /* Main Content */
 .hero_outer {
@@ -128,12 +141,11 @@ h1 a{
 .cover_text {
     width: 35%;
     position: absolute;
-    top: 30%;
+    top: 68%;
     margin-left: 10%;
     align-self: start;
     padding:5px;
     background: rgba(255, 116, 116, 0.4) ;
-
     color: rgb(236, 236, 236);
     font-size:1.2em;
 }
