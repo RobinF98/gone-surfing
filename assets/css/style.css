@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Rock+Salt&display=swap');
+
 *,
 *::before,
 *::after {
@@ -10,14 +12,25 @@
 :root{
     --light: rgb(108, 152, 170);
     --dark: rgb(73, 101, 101);
+
+    --turq1: rgb(154, 218, 224);
+    --turq2: rgb(32, 198, 203);
+    --turq3: rgb(30, 174, 169);
+
+    --white1: rgb(239, 247, 233);
+
+    --sand1: rgb(235, 225, 215);
+    --sand2: rgb(241, 222, 196);
+
 }
 body{
     /* border: solid red 5px; */
     padding: 0;
+    color: var(--white1);
 }
 
 header {
-    position: relative;
+    position: fixed;
     z-index: 10;
     padding: 0 0 0 5px;
     width: 100%;
@@ -26,26 +39,40 @@ header {
     justify-content:space-between;
     align-content: center;
     /* background: rgb(116, 197, 177); */
-    background: var(--light);
+    background: var(--turq2);
+    /* background: linear-gradient(180deg, rgba(32,198,203,1) 0%, rgba(30,174,169,1) 64%); */
+
     margin:0;
-    box-shadow: 0 3px 4px var(--dark);
+    /* box-shadow: 0 3px 4px var(--turq3); */
 }
 
 header h1 {
     font-family: "Rock Salt", cursive;
     align-self: center;
     font-size:38px;
+    color: var(--white1);
+
+    margin-left: 20px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: inherit;
 }
 /* Navigation links */
 .menu {
+    height: 100%;
     width: auto;
-    background: rgb(204, 150, 204);
+    background: var(--turq3);
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    align-content: center;
     flex-wrap: wrap;
-    margin: 10px 0 0 0;
+    /* margin: 10px 0 0 0; */
     align-self: flex-end;
+
+    /* color: var(--sand2);     */
     /* border:rgb(22, 22, 22) solid 1px; */
 }
 
@@ -54,9 +81,18 @@ header h1 {
     list-style-type: none;
     /* border-right: rgb(0, 0, 0) solid 1px; */
     /* padding-right: 50px; */
-    margin: 10px 20px;
+    /* margin: 10px 20px; */
+    padding: 36.5px 20px;
     /* background: pink; */
-    justify-self:auto;
+
+    width:100px;
+    height: 90px;
+
+    display: flex;
+}
+
+.menu li:hover{
+    background: var(--dark);
 }
 /* 
 .menu li:last-child {
@@ -66,15 +102,14 @@ header h1 {
 .menu a {
     text-decoration: none;
     color: inherit;
+
+    margin: auto;
 }
 
 .menu a:hover, .active {
     border-bottom: 2px solid darkcyan;
 }
 
-.active a:hover{
-    border-bottom: none;
-}
 /* Main Content */
 .hero_outer {
     display: flex;
