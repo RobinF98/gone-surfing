@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Rock+Salt&display=swap');
+/* Google fonts api */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Belanosima&family=Poppins:ital,wght@0,200;0,300;1,300&family=Rock+Salt&display=swap');
 
 *,
 *::before,
@@ -27,8 +28,12 @@ body{
     /* border: solid red 5px; */
     padding: 0;
     color: var(--white1);
+    font-family:'Poppins';
 }
 
+h2, h3, h4, h5, h6 {
+    font-family: 'Amatic SC';
+}
 header {
     position: fixed;
     z-index: 10;
@@ -72,6 +77,10 @@ h1 a{
     /* margin: 10px 0 0 0; */
     align-self: flex-end;
 
+    font-family: 'Amatic SC';
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    /* font-style: bold; */
     /* color: var(--sand2);     */
     /* border:rgb(22, 22, 22) solid 1px; */
 }
@@ -195,12 +204,12 @@ h1 a{
     position: relative;
     top: 50%;
     height: 50%;
-    z-index: 10;
+    z-index: 5;    
     display: flex;
     justify-items:center;
     align-items: flex-start;
     flex-direction: column;
-
+    overflow: hidden;
     background-color: rgba(67, 138, 138, 0.685);
 }
 
@@ -214,7 +223,7 @@ h1 a{
 }
 
 .footer {
-    background: pink;
+    background: var(--turq2);
     height: 30px;
     display: flex;
     justify-content: center;
@@ -222,7 +231,7 @@ h1 a{
 
 .socials {
     width: 25%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
