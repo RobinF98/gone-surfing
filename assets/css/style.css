@@ -35,7 +35,8 @@ h2, h3, h4, h5, h6 {
     font-family: 'Amatic SC';
 }
 header {
-    position: fixed;
+    position: sticky;
+    top: 0;
     z-index: 10;
     padding: 0 0 0 5px;
     width: 100%;
@@ -315,3 +316,22 @@ footer {
     list-style-type: none;
 }
 
+/* Blog page */
+
+.featured{
+    position: relative;
+    background-color: var(--sand2);
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 1em;
+    
+}
+.featured h2{
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    color: var(--dark);
+    justify-self: flex-start;
+}
