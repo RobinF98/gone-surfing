@@ -323,15 +323,68 @@ footer {
     background-color: var(--sand2);
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
     padding: 1em;
+    border-bottom: var(--turq3) solid 2em;
     
 }
-.featured h2{
+.featured h3{
     position: absolute;
     top: 2%;
     left: 4%;
     color: var(--dark);
     justify-self: flex-start;
+}
+
+.blog__header{
+    background: var(--turq3);
+}
+
+.blog__list{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background: url(../images/blog_stock_large.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.article__list{
+    background-color: black;
+    flex-basis: 20em;
+}
+
+.article__list li {
+    margin: 10px
+}
+.article__list li:hover{
+    background-color: var(--turq3);
+    cursor: pointer;
+}
+
+.article__list ol{
+    list-style: none;
+}
+
+.write_us{
+    flex-basis:35em;
+    background-color: var(--dark);
+    height: auto;
+    padding: 5px;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.write_us a{
+    text-decoration: none;
+    color: var(--sand1);
+    font-size: 1.2em;
+    padding-left: 2em;
+}
+
+.write_us ul {
+    /* list-style: inside; */
+    padding-left: 2em;
 }
