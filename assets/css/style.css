@@ -257,9 +257,10 @@ h1 a {
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
-    border: solid var(--dark) 2vw;
+    /* border: solid var(--dark) 2vw; */
+    background-color: var(--turq3);
     /* border-right: solid var(--dark) 2.5vw;     */
-    padding: 1vw;
+    padding: 4vw 1vw;
     /* max-width: 30vw; */
 }
 
@@ -314,11 +315,17 @@ footer {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .footer {
     background: var(--turq2);
-    height: 30px;
+    height: 50px;
     display: flex;
     justify-content: center;
+    color: var(--white1);
 }
 
 .socials {
@@ -328,11 +335,21 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    color: inherit;
 
 }
 
 .socials li {
     list-style-type: none;
+    font-size: 20px;
+    color: inherit;
+
+
+
+    :hover {
+        color: var(--dark);
+        cursor: pointer;
+    }
 }
 
 /* Blog page */
