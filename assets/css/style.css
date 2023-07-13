@@ -1,5 +1,5 @@
 /* Google fonts api */
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Belanosima&family=Poppins:ital,wght@0,200;0,300;1,300&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rock+Salt&display=swap');
 
 *,
 *::before,
@@ -19,6 +19,7 @@
     --turq3: rgb(30, 174, 169);
     --white1: rgb(239, 247, 233);
     --sand1: rgb(235, 225, 215);
+    --sand1a: rgba(235, 225, 215, 0.4);
     --sand2: rgb(241, 222, 196);
     /* hamburger menu */
     --bar_width: 40px;
@@ -33,7 +34,7 @@ body {
     /* border: solid red 5px; */
     padding: 0;
     color: var(--white1);
-    font-family: 'Poppins';
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -44,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Amatic SC';
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -97,8 +98,8 @@ h1 a {
     /* margin: 10px 0 0 0; */
     align-self: flex-end;
 
-    font-family: 'Amatic SC';
-    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
     /* font-weight: bold; */
     /* font-style: bold; */
     /* color: var(--sand2);     */
@@ -183,7 +184,7 @@ h1 a {
 /* Blog section */
 
 .blog__head {
-    /* background: pink; */
+    background: pink;
     position: absolute;
     left: 20px;
     /* top: -5px; */
@@ -208,7 +209,9 @@ h1 a {
     margin: 1.5rem 0;
     height: 290px;
     width: 290px;
-    background: slategray;
+    background: rgb(183, 193, 202);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .blog__post:hover {
@@ -242,8 +245,13 @@ h1 a {
     flex-direction: column;
     overflow: hidden;
     background-color: rgba(67, 138, 138, 0.685);
+    padding: 10px;
+    text-align: start;
 }
 
+.blog__desc h4 {
+    padding: 3px;
+}
 
 /* Gallery */
 .team {
@@ -269,17 +277,9 @@ h1 a {
     /* max-width: 30vw; */
 }
 
-/* .gallery {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 4px;
-    overflow: hidden;
-} */
+
 .gallery__thumb {
-    /* justify-self: center; */
     width: 30vw;
-    /* width:100%; */
     margin: 2px;
     aspect-ratio: 1/1;
 
@@ -288,29 +288,19 @@ h1 a {
 }
 
 .gallery__img {
-    /* max-width: 25vw; */
     width: 100%;
-    /* margin: 2px; */
     transition: 2s;
     aspect-ratio: 1/1;
-    /* object-fit: scale-down; */
-    /* position: relative; */
 }
 
 .gallery__img:hover {
     transform: scale(1.1);
     aspect-ratio: auto;
-    /* max-width: 50vw; */
     position: absolute;
     z-index: 2;
 }
 
 /* footer */
-footer {
-    position: relative;
-
-    /* top: 100vh; */
-}
 
 .map {
     display: flex;
@@ -359,45 +349,55 @@ a {
 
 .featured {
     position: relative;
-    background-color: var(--sand2);
+    background-color: var(--sand1);
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-    padding: 1em;
-    border-bottom: var(--turq3) solid 2em;
+    padding: 1.5em;
+    /* padding-top: 2em; */
 
 }
 
 .featured h3 {
     position: absolute;
-    top: 2%;
-    left: 4%;
+    top: 3%;
+    left: 3%;
     color: var(--dark);
-    justify-self: flex-start;
 }
 
 .blog__header {
     background: var(--turq3);
+    padding: 5px;
+    padding-left: 27px;
 }
 
 .blog__list {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    background: url(../images/blog_stock_large.jpg) no-repeat center;
+    background: url(../images/blog_stock_large_cropped.jpg) no-repeat center;
     background-size: cover;
+    border-top: var(--turq3) solid 2em;
+    border-bottom: var(--turq3) solid 2em;
 }
 
 
 .article__list {
-    background-color: black;
+    background-color: var(--sand1a);
     flex-basis: 20em;
+    padding-top: 10px;
+}
+
+.article__list h3 {
+    padding: 10px;
+    color: var(--dark)
 }
 
 .article__list li {
-    margin: 10px
+    font-family: Monserrat;
+    padding: 10px
 }
 
 .article__list li:hover {
@@ -410,10 +410,10 @@ a {
 }
 
 .write_us {
-    flex-basis: 35em;
-    background-color: var(--dark);
-    height: auto;
-    padding: 5px;
+    flex-basis: 25em;
+    /* background-color: var(--sand1a); */
+    height: max-content;
+    padding: 20px;
     margin-top: auto;
     margin-left: auto;
 }
@@ -426,8 +426,12 @@ a {
 }
 
 .write_us ul {
-    /* list-style: inside; */
+    padding: 10px;
     padding-left: 2em;
+}
+
+.write_us ul li {
+    padding: 3px;
 }
 
 /* Hamburger Menu from Web Dev Simplified*/
