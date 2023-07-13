@@ -21,11 +21,11 @@
     --sand1: rgb(235, 225, 215);
     --sand2: rgb(241, 222, 196);
     /* hamburger menu */
-    --bar_width: 60px;
-    --bar_height: 8px;
-    --bar_gap: 10px;
-    --hamburger_margin: 15px;
-    --timing: 500ms ease-in-out;
+    --bar_width: 40px;
+    --bar_height: 6px;
+    --bar_gap: 4px;
+    --hamburger_margin: 10px;
+    --timing: 300ms ease-in-out;
     --hamburger_height: calc(var(--bar_height) * 3 + var(--bar_gap) * 2);
 }
 
@@ -52,6 +52,7 @@ nav {
 }
 
 header {
+    transition: var(--timing);
     position: sticky;
     top: 0;
     z-index: 10;
@@ -70,11 +71,11 @@ header {
 }
 
 header h1 {
+    transition: var(--timing);
     font-family: "Rock Salt", cursive;
     align-self: center;
     font-size: 38px;
     color: var(--white1);
-
     margin-left: 20px;
 }
 
@@ -524,4 +525,9 @@ a {
         translate: -100%;
     }
 
+    /* header */
+    header h1 {
+        transition: var(--timing);
+        font-size: 20px;
+    }
 }
