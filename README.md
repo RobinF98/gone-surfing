@@ -18,30 +18,22 @@ Link to site: https://robinf98.github.io/gone-surfing/
 
 ## Wireframes
 
-## Full screen size
+## Desktop screen size
 
-### Home page
-![Home](documentation/home.png)
+[Desktop - Home](documentation/home.png)
 
-### Blog page
-![Blog](documentation/blog.png)
+[Desktop - Blog](documentation/blog.png)
 
-### Gallery page
-![Gallery](documentation/gallery.png)
+[Desktop - Gallery](documentation/gallery.png)
 
-### Contact page
-![Contact](documentation/contact.png)
+[Desktop - Contact](documentation/contact.png)
 
 ## Mobile screen size
 
-### Home page
-![Home](documentation/home_mobile.png)
+[Mobile - Home](documentation/home_mobile.png)
 
-### Blog page
-![Blog](documentation/blog_mobile.png)
+[Mobile - Blog](documentation/blog_mobile.png)
 
-### Gallery page
-![Gallery](documentation/gallery_mobile.png)
+[Mobile - Gallery](documentation/gallery_mobile.png)
 
-### Contact page
-![Contact](documentation/contact_mobile.png)
+[Mobile - Contact](documentation/contact_mobile.png)
