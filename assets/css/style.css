@@ -21,6 +21,7 @@
     --sand1: rgb(235, 225, 215);
     --sand1a: rgba(235, 225, 215, 0.4);
     --sand2: rgb(241, 222, 196);
+    --sand2a: rgba(241, 222, 196, 0.4);
     /* hamburger menu */
     --bar_width: 40px;
     --bar_height: 6px;
@@ -124,6 +125,7 @@ h1 a {
 
 .menu li:hover,
 .side_menu li:hover {
+    transition: 200ms;
     background: var(--dark);
 }
 
@@ -452,6 +454,40 @@ a {
     width: 45vw;
     background-color: var(--sand1a);
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label_hidden {
+    display: none;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.radio_btn {
+    display: flex;
+    width: fit-content;
+}
+
+.label_visible {
+    color: rgb(117, 117, 132);
+    font-size: 17px;
+    display: flex;
+    gap: 10px;
+}
+
+.text_input {
+    background: var(--sand2a);
+    border: none;
+    outline: none;
+    padding: 3px;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    width: 40%;
 }
 
 .gmap_contact {
