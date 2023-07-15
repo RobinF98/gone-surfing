@@ -456,6 +456,11 @@ a {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    gap: 10px
+}
+
+.contact h2 {
+    color: rgb(117, 117, 132);
 }
 
 .label_hidden {
@@ -488,6 +493,22 @@ a {
     font-size: 20px;
     font-family: Montserrat, sans-serif;
     width: 40%;
+}
+
+.submit_button {
+    display: block;
+    padding: 7px 15px;
+    width: 200px;
+    outline: none;
+    border: none;
+    color: rgb(117, 117, 132);
+    font-family: Montserrat, sans-serif;
+    background-color: var(--sand2);
+}
+
+.submit_button:hover {
+    color: initial;
+    cursor: pointer;
 }
 
 .gmap_contact {
