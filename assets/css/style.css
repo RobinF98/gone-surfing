@@ -22,6 +22,7 @@
     --sand1a: rgba(235, 225, 215, 0.4);
     --sand2: rgb(241, 222, 196);
     --sand2a: rgba(241, 222, 196, 0.4);
+    --textdark: rgb(117, 117, 132);
     /* hamburger menu */
     --bar_width: 40px;
     --bar_height: 6px;
@@ -39,6 +40,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    width: 100%;
 }
 
 h2,
@@ -155,13 +157,14 @@ h1 a {
     background-color: var(--sand1);
     flex: 1 0 auto;
     position: relative;
+    width: 100%;
 }
 
 .hero_outer {
     display: flex;
     flex-direction: column;
     position: relative;
-
+    width: 100%;
     background: lightblue;
 }
 
@@ -187,10 +190,9 @@ h1 a {
 /* Blog section */
 
 .blog__head {
-    background: pink;
+    color: var(--textdark);
     position: absolute;
     left: 20px;
-    /* top: -5px; */
 }
 
 .blog__posts {
@@ -367,7 +369,7 @@ a {
     position: absolute;
     top: 3%;
     left: 3%;
-    color: var(--dark);
+    color: var(--textdark);
 }
 
 .blog__header {
@@ -388,14 +390,14 @@ a {
 
 
 .article__list {
-    background-color: var(--sand1a);
+    background-color: var(--dark);
     flex-basis: 20em;
     padding-top: 10px;
 }
 
 .article__list h3 {
     padding: 10px;
-    color: var(--dark)
+    color: var(--sand1)
 }
 
 .article__list li {
@@ -456,12 +458,11 @@ a {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px
-}
-
-.contact h2 {
+    gap: 10px;
     color: rgb(117, 117, 132);
 }
+
+
 
 .label_hidden {
     display: none;
@@ -590,9 +591,10 @@ a {
     }
 
     .sidebar {
-        padding-top: calc(var(--bar_height) + var(--hamburger_margin) + 3em);
+        /* padding-top: calc(var(--bar_height) + var(--hamburger_margin) + 3em); */
         display: block;
         right: auto;
+        top: 48px;
         transition: translate var(--timing);
         translate: 100%;
         width: calc(max-content + 10px);
@@ -609,11 +611,31 @@ a {
 
     .hamburger_menu:has(input:checked)+.sidebar {
         translate: -100%;
+        display: block;
     }
 
     /* header */
     header h1 {
         transition: var(--timing);
         font-size: 20px;
+    }
+
+    /* contact page */
+
+    .gmap_contact {
+        display: none;
+    }
+
+    .contact {
+        width: 85%;
+        height: 85%;
+    }
+
+    .text_input {
+        width: 98%
+    }
+
+    .submit_button {
+        width: 98%;
     }
 }
