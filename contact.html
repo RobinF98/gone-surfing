@@ -79,7 +79,7 @@
     <main class="main main_contact">
         <section class="contact">
             <h2>Get in touch</h2>
-            <form class="contact_form">
+            <form class="contact_form" method="GET" action="response.html">
                 <label for="fname" class="label_hidden">First Name</label>
                 <input type="text" id="fname" class="text_input" name="fname" required placeholder="First Name">
                 <label for="lname" class="label_hidden">Last Name</label>
@@ -87,13 +87,14 @@
                 <label for="email" class="label_hidden">Email</label>
                 <input type="email" id="email" class="text_input" name="email" required placeholder="Email">
                 <label for="all_info" class="label_visible">
-                    <input type="radio" name="contact" value="all" class="radio_btn" />
+                    <input type="radio" name="contact" value="all" class="radio_btn" required />
                     Receive all news and updates
                 </label>
                 <label for="all_info" class="label_visible">
                     <input type="radio" name="contact" value="some" class="radio_btn" />
                     Receive only meetup dates
                 </label>
+                <button type="submit" class="submit_button">Submit</button>
             </form>
         </section>
         <iframe class="gmap_contact" name="gmap"
