@@ -37,3 +37,7 @@ Link to site: https://robinf98.github.io/gone-surfing/
 [Mobile - Gallery](documentation/gallery_mobile.png)
 
 [Mobile - Contact](documentation/contact_mobile.png)
+
+### BUGS
+
+* Hover effect fro blog post doesent eork in firefox
