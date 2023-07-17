@@ -20,8 +20,7 @@
         <h1>
             <a href="index.html" aria-label="Navigate to home page">GoneSurfing</a>
         </h1>
-
-        <nav>
+        <nav class="hamburger_nav">
             <label class="hamburger_menu">
                 <input type="checkbox" name="hamburger_menu" />
             </label>
@@ -49,6 +48,8 @@
                     </li>
                 </ul>
             </aside>
+        </nav>
+        <nav>
             <ul class="menu main_menu">
                 <li>
                     <a href="index.html" aria-label="Navigate to home page">
@@ -87,11 +88,11 @@
                 <label for="email" class="label_hidden">Email</label>
                 <input type="email" id="email" class="text_input" name="email" required placeholder="Email">
                 <label for="all_info" class="label_visible">
-                    <input type="radio" name="contact" value="all" class="radio_btn" required />
+                    <input type="radio" name="contact" id="all_info" value="all" class="radio_btn" required />
                     Receive all news and updates
                 </label>
-                <label for="all_info" class="label_visible">
-                    <input type="radio" name="contact" value="some" class="radio_btn" />
+                <label for="some_info" class="label_visible">
+                    <input type="radio" id="some_info" name="contact" value="some" class="radio_btn" />
                     Receive only meetup dates
                 </label>
                 <button type="submit" class="submit_button">Submit</button>
