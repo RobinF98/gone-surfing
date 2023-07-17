@@ -178,12 +178,12 @@ h1 a {
 .cover_text {
     width: 35%;
     position: absolute;
-    top: 68%;
-    left: 10%;
+    top: 55%;
+    left: 5%;
     align-self: start;
     padding: 5px;
-    background: rgba(255, 116, 116, 0.4);
-    color: rgb(236, 236, 236);
+    background: rgb(73, 101, 101, 0.4);
+    color: var(--sand1);
     font-size: 1.2em;
 }
 
@@ -278,7 +278,7 @@ h1 a {
     /* border: solid var(--dark) 2vw; */
     background-color: var(--turq3);
     /* border-right: solid var(--dark) 2.5vw;     */
-    padding: 4vw 1vw;
+    padding: 4vw 0.2vw;
     /* max-width: 30vw; */
 }
 
@@ -330,7 +330,6 @@ a {
 
 .socials {
     width: 25%;
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -343,6 +342,7 @@ a {
     list-style-type: none;
     font-size: 20px;
     color: inherit;
+    padding: 0 20px;
 
     :hover {
         color: var(--dark);
@@ -361,8 +361,6 @@ a {
     justify-content: space-around;
     align-content: center;
     padding: 1.5em;
-    /* padding-top: 2em; */
-
 }
 
 .featured h3 {
@@ -496,7 +494,10 @@ a {
     width: 40%;
 }
 
-.submit_button {
+.submit_button,
+.a_back {
+    text-align: center;
+    text-decoration: none;
     display: block;
     padding: 7px 15px;
     width: 200px;
@@ -507,7 +508,8 @@ a {
     background-color: var(--sand2);
 }
 
-.submit_button:hover {
+.submit_button:hover,
+.a_back:hover {
     color: initial;
     cursor: pointer;
 }
@@ -530,6 +532,15 @@ a {
 @media screen and (max-width: 800px) {
     .main_menu {
         display: none;
+    }
+
+    .hamburger_nav {
+        position: absolute;
+        z-index: 2;
+        right: 0px;
+        overflow: hidden;
+        height: 100vh;
+        width: 100px;
     }
 
     .hamburger_menu {
@@ -593,16 +604,16 @@ a {
     .sidebar {
         /* padding-top: calc(var(--bar_height) + var(--hamburger_margin) + 3em); */
         display: block;
-        right: auto;
+        left: 100%;
         top: 48px;
         transition: translate var(--timing);
-        translate: 100%;
+        translate: 0;
         width: calc(max-content + 10px);
         min-height: 100vh;
         background-color: var(--turq3);
         position: absolute;
         z-index: 2;
-        box-shadow: 0.5px 0 8px black;
+        /* box-shadow: 0.5px 0 8px black; */
     }
 
     .side_menu {
@@ -637,5 +648,17 @@ a {
 
     .submit_button {
         width: 98%;
+    }
+
+    /* Gallery */
+    .team {
+        height: 400px;
+    }
+
+    /* home cover text */
+    .cover_text {
+        left: 0%;
+        top: 0%;
+        height: 100%;
     }
 }
