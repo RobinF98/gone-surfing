@@ -20,6 +20,7 @@
     --white1: rgb(239, 247, 233);
     --sand1: rgb(235, 225, 215);
     --sand1a: rgba(235, 225, 215, 0.4);
+    --sand1a_2: rgba(235, 225, 215, 0.7);
     --sand2: rgb(241, 222, 196);
     --sand2a: rgba(241, 222, 196, 0.4);
     --textdark: rgb(117, 117, 132);
@@ -640,6 +641,7 @@ a {
     .contact {
         width: 85%;
         height: 85%;
+        background-color: var(--sand1a_2);
     }
 
     .text_input {
