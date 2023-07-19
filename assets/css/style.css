@@ -44,6 +44,10 @@ body {
     width: 100%;
 }
 
+.h2_hidden {
+    display: none;
+}
+
 h2,
 h3,
 h4,
