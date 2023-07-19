@@ -589,7 +589,7 @@ a {
         translate: 0 calc(var(--bar_height) / -2);
     }
 
-    .hamburger_menu:has(input:checked)::after {
+    .hamburger_menu:has(input:checked):after {
         rotate: 45deg;
         width: var(--x-width);
         translate: 0 calc(var(--bar_height) / 2);
@@ -600,23 +600,19 @@ a {
         width: 0;
     }
 
-    .hamburger_menu.hamburger_menu:has(input:checked) {
+    .hamburger_menu:has(input:checked) {
         --foreground: var(--dark);
     }
 
     .sidebar {
-        /* padding-top: calc(var(--bar_height) + var(--hamburger_margin) + 3em); */
         display: block;
         left: 100%;
         top: 48px;
         transition: translate var(--timing);
-        translate: 0;
-        width: calc(max-content + 10px);
         min-height: 100vh;
         background-color: var(--turq3);
         position: absolute;
         z-index: 2;
-        /* box-shadow: 0.5px 0 8px black; */
     }
 
     .side_menu {
