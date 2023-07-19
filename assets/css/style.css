@@ -220,10 +220,8 @@ h1 a {
     overflow: hidden;
 }
 
-.blog__post:hover {
-    .blog__post__bg {
-        opacity: 1;
-    }
+div.blog__post:hover .blog__post__bg {
+    opacity: 1;
 }
 
 .blog__post__bg {
@@ -344,11 +342,11 @@ a {
     font-size: 20px;
     color: inherit;
     padding: 0 20px;
+}
 
-    :hover {
-        color: var(--dark);
-        cursor: pointer;
-    }
+.socials li:hover {
+    color: var(--dark);
+    cursor: pointer;
 }
 
 /* Blog page */
