@@ -193,4 +193,8 @@ Please refer to the [TESTING.md](TESTING.md) file for all testing documentation.
 
 ### Media
 
-* The photos used in the site were taken from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
+* The images used in the site were taken from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
+
+## Acknowledgements
+
+* [Juliia Konovalova](https://github.com/IuliiaKonovalova) - My CI mentor, who provided a lot of much needed advice and encouragement. I have learnt a lot from her in a very short space of time, and I am very grateful.
