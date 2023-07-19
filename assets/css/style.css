@@ -532,6 +532,7 @@ a {
     display: none;
 }
 
+/* Smaller screens */
 @media screen and (max-width: 800px) {
     .main_menu {
         display: none;
@@ -589,7 +590,7 @@ a {
         translate: 0 calc(var(--bar_height) / -2);
     }
 
-    .hamburger_menu:has(input:checked):after {
+    .hamburger_menu:has(input:checked)::after {
         rotate: 45deg;
         width: var(--x-width);
         translate: 0 calc(var(--bar_height) / 2);
