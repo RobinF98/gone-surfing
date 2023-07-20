@@ -22,10 +22,10 @@
 | Blog Posts | Hover over a blog post | The background image opacity is set to 1.00 | Yes | Yes | - |
 
 <!-- Keep going from hereererere!!!!!! -->
-| Blog page | | | | | | 
+| Blog page | | | | | |
 | Blog Posts in Featured Section | Hover over a blog post | The background image opacity is set to 1.00 | Yes | Yes | - |
-| Image in the gallery | User hover the image | Pet's name and description appear on the image | Yes | Yes | - |
-| "Contact Us" button in Call to action section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
+| Blog posts in Blog list | Hover over blog listing | Blog listing is highlighted | Yes | Yes | - |
+| "Contact Us" link in Blog list section| Click on the "Contact Us" link | The user is redirected to the contact page | Yes | Yes | - |
 
 | Gallery page | | | | | |
 | "Contact Us" button in Hero section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
