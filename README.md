@@ -201,6 +201,7 @@ Please refer to the [TESTING.md](TESTING.md) file for all testing documentation.
 
 * The images used in the site were taken from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 * The resonsive mockup at the beginning of this document was downloaded from [Website Mockup Generator](https://websitemockupgenerator.com/)
+
 ## Acknowledgements
 
 * [Juliia Konovalova](https://github.com/IuliiaKonovalova) - My CI mentor, who provided a lot of much needed advice and encouragement. I have learnt a lot from her in a very short space of time, and I am very grateful.
