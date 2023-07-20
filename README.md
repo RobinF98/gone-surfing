@@ -1,7 +1,12 @@
 # GoneSurfing
 
-![Responsive Mockup](documentation/responsive_mockup.png)
+GoneSurfing is a group of surfers who want to broaden their community and share their stoke. The website provides a wealth of information in the form of blog posts about all things surfing related, and a mailing list with news and dates and times of meetups.
+
+The goal of the website is to attract anyone with an interest in surfing and make surfing a bigger part of their lives.
+
 The site can be accessed through this [link](https://robinf98.github.io/gone-surfing/)
+
+![Responsive Mockup](documentation/responsive_mockup.png)
 
 ## User Stories
 
@@ -199,3 +204,9 @@ Please refer to the [TESTING.md](TESTING.md) file for all testing documentation.
 ## Acknowledgements
 
 * [Juliia Konovalova](https://github.com/IuliiaKonovalova) - My CI mentor, who provided a lot of much needed advice and encouragement. I have learnt a lot from her in a very short space of time, and I am very grateful.
+
+## Notes
+
+---
+
+The commit tab on Github shows that multiple people have commited to this repo. This is not the case. I am the only contributor to this repo. This error is due to a mixup in the user names in Git in VS Code. I am Robin Muller, [robinfmuller@gmail.com](robinfmuller@gmail.com), and [RobinF98](https://github.com/RobinF98). I have already mentioned this issue to the Student Care team at CI.
