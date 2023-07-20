@@ -71,6 +71,65 @@ On the browsers tested, the responsiveness works as expected on all standard scr
 | Smaller screens | | | | | |
 | Hamburger Menu | Click on hamburger menu | Sidebar appears | Yes | Yes | - |
 
+## Validator Testing
+
+---
+
+### HTML
+
+* Home Page
+
+  * No errors or warnings were found by the W3C validator
+    ![VALIDATOR HOME](documentation/validator_home.png)
+
+* Blog Page
+
+  * No errors or warnings were found by the W3C validator
+    ![VALIDATOR BLOG](documentation/validator_blog.png)
+
+* Gallery Page
+
+  * No errors or warnings were found by the W3C validator
+    ![VALIDATOR GALLERY](documentation/validator_gallery.png)
+
+* Contact Page
+
+  * No errors or warnings were found by the W3C validator
+    ![VALIDATOR CONTACT](documentation/validator_contact.png)
+
+* Response Page
+
+  * No errors or warnings were found by the W3C validator
+    ![VALIDATOR RESPONSE](documentation/validator_response.png)
+
+### CSS
+
+    * Some errors were found by the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/), but the parsing errors found work correctly in the browsers tested, and are valid CSS selectors. The warnings on the CSS variables are expected and not an issue.
+
+![VALIDATOR CSS](documentation/validator_css.png)
+
+## Lighthouse Report
+
+---
+
+The lighthouse reports from Chrome devtools show the site performs well, is accessible, and conforms to best practises and SEO
+
+### Home Page
+
+![LIGHTHOUSE HOME](documentation/lighthouse_home.png)
+
+### Blog Page
+
+![LIGHTHOUSE BLOG](documentation/lighthouse_blog.png)
+
+### Gallery Page
+
+![LIGHTHOUSE GALLERY](documentation/lighthouse_gallery.png)
+
+### Contact Page
+
+![LIGHTHOUSE CONTACT](documentation/lighthouse_contact.png)
+
 ## Bugs
 
 ---
