@@ -1,46 +1,75 @@
 # TESTING
 
+## Compatibility
+
+---
+
+The site was tested on 3 browsers: Chrome, Edge, and Opera
+All features work as expected on these browsers.
+
+* ### Chrome
+
+  * [Chrome Home](documentation/home.png)
+  * [Chrome Blog](documentation/blog.png)
+  * [Chrome Gallery](documentation/gallery.png)
+  * [Chrome Contact](documentation/contact.png)
+
+* ### Edge
+
+  * [Edge Home](documentation/edge_home.jpeg)
+  * [Edge Blog](documentation/edge_blog.jpeg)
+  * [Edge Gallery](documentation/edge_gallery.jpeg)
+  * [Edge Contact](documentation/edge_contact.jpeg)
+
+* ### Opera
+
+  * [Opera Home](documentation/opera_home.png)
+  * [Opera Blog](documentation/opera_blog.png)
+  * [Opera Gallery](documentation/opera_gallery.png)
+  * [Opera Contact](documentation/opera_contact.png)
+
+## Responsiveness
+
+---
+
+Responsiveness was tested with [Responsive Design Checker](https://responsivedesignchecker.com/)
+On the browsers tested, the responsiveness works as expected on all standard screen sizes.
+
 ## Manual Testing
 
 ---
 
 | Feature | Action | Expected Result | Tested | Passed | Comments |
 | --- | --- | --- | --- | --- | --- |
-
 | Navbar | | | | | |
-| Home | Click on the "Home" link | The user is redirected to the home page | Yes | Yes | - |
-| Blog | Click on the "Blog" link | The user is redirected to the blog page | Yes | Yes | - |
-| Gallery | Click on the "Gallery" link | The user is redirected to the gallery page | Yes | Yes | - |
-| Contact | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
+| Home | Click on "Home" link | User is redirected to home page | Yes | Yes | - |
+| Blog | Click on "Blog" link | User is redirected to blog page | Yes | Yes | - |
+| Gallery | Click on "Gallery" link | User is redirected to gallery page | Yes | Yes | - |
+| Contact | Click on "Contact" link | User is redirected to contact page | Yes | Yes | - |
 | Footer | | | | | |
-| YouTube icon | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
-| Facebook icon | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
-| Twitter icon | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
-| Instagram icon | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
-
+| YouTube icon | Click on YouTube icon | User is redirected to YouTube page | Yes | Yes | - |
+| Facebook icon | Click on Facebook icon | User is redirected to Facebook page | Yes | Yes | - |
+| Twitter icon | Click on Twitter icon | User is redirected to Twitter page | Yes | Yes | - |
+| Instagram icon | Click on Instagram icon | User is redirected to Instagram page | Yes | Yes | - |
 | Home page | | | | | |
 | Blog Posts | Hover over a blog post | The background image opacity is set to 1.00 | Yes | Yes | - |
-
-<!-- Keep going from hereererere!!!!!! -->
 | Blog page | | | | | |
 | Blog Posts in Featured Section | Hover over a blog post | The background image opacity is set to 1.00 | Yes | Yes | - |
 | Blog posts in Blog list | Hover over blog listing | Blog listing is highlighted | Yes | Yes | - |
-| "Contact Us" link in Blog list section| Click on the "Contact Us" link | The user is redirected to the contact page | Yes | Yes | - |
-
+| "Contact Us" link in Blog list section| Click on "Contact Us" link | User is redirected to contact page | Yes | Yes | - |
 | Gallery page | | | | | |
-| "Contact Us" button in Hero section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
-| Image in the gallery | User hover the image | Pet's name and description appear on the image | Yes | Yes | - |
-| "Contact Us" button in Call to action section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
-
+| Image in Gallery | Hover over image | Image zooms in | Yes | Yes | - |
 | Contact page | | | | | |
-| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
-| Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Adopt and donate checkbox | Click on the checkbox | The checkbox is checked | Yes | Yes | These checkboxes are not required as the user can choose not to adopt or donate and other reasons for contacting |
-| "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
-
+| First Name input | Enter user first name | User first name entered | Yes | Yes | If input is left blank, error message appears on submit |
+| Last Name input | Enter user the last name | User last name entered | Yes | Yes | If input is left blank, error message appears on submit |
+| Email input | Enter user email | User email entered | Yes | Yes | If input is left blank, error message appears on submit. If email is invalid, error message appears on submit |
+| All news / Some news radio | Select an option | Option selected | Yes | Yes | If no option is selected, error message appears on submit |
+| Submit button | Click on Submit button | User is redirected to response page | Yes | Yes | - |
 | Response page | | | | | |
-| Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
+| Response message | Automatically redirected to home page after 10 seconds | Redirected to home page | Yes | Yes | - |
+| "Back to home" button | Click on "Back to home" button | User is redirected to home page | Yes | Yes | - |
+| Smaller screens | | | | | |
+| Hamburger Menu | Click on hamburger menu | Sidebar appears | Yes | Yes | - |
 
 ## Bugs
 
